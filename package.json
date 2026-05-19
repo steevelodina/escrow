@@ -1,0 +1,25 @@
+{
+  "name": "escrow-mvp",
+  "version": "1.0.0",
+  "description": "Escrow system MVP for Facebook Marketplace - stop scams",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": ["escrow", "marketplace", "security"],
+  "author": "steevelodina",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.0",
+    "dotenv": "^16.0.3",
+    "stripe": "^12.0.0",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
